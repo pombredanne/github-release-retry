@@ -28,15 +28,16 @@ def get_long_description() -> str:
 
 
 setup(
-    name="github-release-retry",
-    version="1.0.7",
-    description="A tool for creating GitHub Releases and uploading assets reliably.",
+    name="github-release-retry2",
+    version="1.1.0",
+    description="A tool for creating GitHub Releases and uploading assets reliably. "
+        "Temp fork with patch for https://github.com/google/github-release-retry/pull/6",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     keywords="GitHub Release Releases reliable retry upload assets",
     author="The github-release-retry Project Authors",
     author_email="android-graphics-tools-team@google.com",
-    url="https://github.com/google/github-release-retry",
+    url="https://github.com/pombredanne/github-release-retry",
     license="Apache License 2.0",
     packages=["github_release_retry"],
     python_requires=">=3.6",

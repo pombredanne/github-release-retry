@@ -3,16 +3,14 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-`github-release-retry` is a
-tool for creating GitHub Releases and uploading assets **reliably**.
-It differs from other
-tools because it uploads
-assets reliably by
-verifying that the asset
-exists,
-and retries (deleting partial assets) if not.
+`github-release-retry2` is a tool for creating GitHub Releases and uploading
+assets **reliably**. It differs from other tools because it uploads assets
+reliably by verifying that the asset exists, and retries
+(deleting partial assets) if not.
 
 This is not an officially supported Google product.
+This is a fork from the original github-release-retry with advanced patches
+applied for use in scancode-toolkit release scripts.
 
 ## Install
 
